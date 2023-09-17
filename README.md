@@ -1,3 +1,3 @@
 # PregaoLG2
-Turma 213-A__
+Turma 213-A <br/>
 Arthur Augusto, Felipe, Henriquy, Isabela
