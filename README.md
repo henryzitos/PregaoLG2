@@ -1,5 +1,5 @@
 # PregaoLG2
-**Projeto em Java para o 4° Bimestre de LG2 - 2023**
+**Projeto em Java para o 3° e 4° Bimestre de LG2 - 2023**
 
 ## Descrição
 Programa que simulará um pregão na bolsa de valores.
