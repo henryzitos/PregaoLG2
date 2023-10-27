@@ -11,7 +11,7 @@ Programa que simulará um pregão na bolsa de valores.
 4. Execute o projeto.
 
 ## Desenvolvedores
-**Turma 213-A** | **Equipe:** Arthur Augusto, Felipe, Henriquy, Isabela
+**Turma 213-A** | **Equipe:** Arthur Augusto, Felipe de Que?, Henriquy, Isabela
 
 ## Ferramentas usadas
 As ferramentas a seguir são usadas pela equipe e recomendadas ao usuário para ter melhor proveito.
