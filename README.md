@@ -1,5 +1,7 @@
 # PregaoLG2
-**Projeto em Java para o 3° e 4° Bimestre de LG2 - 2023**
+**Projeto para o 3° e 4° Bimestre de LG2 - 2023**
+
+![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
 
 ## Descrição
 Programa que simulará um pregão na bolsa de valores.
