@@ -1,24 +1,20 @@
 package entity;
 
-public class FII extends Ativo {
-    private int quantidadeCotas;
+/*
+A classe FundoInvestimentoImobiliario é uma subclasse de Acao e representa fundos de investimento
+imobiliário (FIIs). Os FIIs são veículos de investimento que possuem e operam empreendimentos
+imobiliários, distribuindo os rendimentos aos investidores. Esta classe inclui atributos específicos
+de FIIs, como o patrimônio líquido, e métodos relacionados ao cálculo de rendimentos mensais.
+*/
+public class FII extends Acao {
+    private double patrimonioLiquido;
 
-    public FII(String codigo, String nome, double valorAtual, int quantidadeCotas) {
-        super(codigo, nome, valorAtual);
-        this.quantidadeCotas = quantidadeCotas;
+    public FII(String simbolo, double preco) {
+        super("FII", simbolo, preco);
     }
 
-    public int getQuantidadeCotas() {
-        return quantidadeCotas;
-    }
-
-    public void setQuantidadeCotas(int quantidadeCotas) {
-        this.quantidadeCotas = quantidadeCotas;
-    }
-
-    @Override
-    public String toString() {
-        return "FundoInvestimentoImobiliario [codigo=" + getCodigo() + ", nome=" + getNome() + ", valorAtual="
-                + getValorAtual() + ", quantidadeCotas=" + quantidadeCotas + "]";
-    }
+    /*public double calcularRendimentoMensal() {
+        // Lógica para calcular o rendimento mensal do fundo
+        return patrimonioLiquido * taxaDeRendimento;
+    }*/
 }

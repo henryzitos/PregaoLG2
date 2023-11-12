@@ -1,24 +1,21 @@
 package entity;
 
-public class AP extends Ativo {
-    private int quantidade;
+/*
+A classe AcaoPreferencial é outra subclasse de Acao e representa ações preferenciais.
+Ações preferenciais geralmente têm a vantagem de receber dividendos fixos antes das ações ordinárias
+e, em algumas situações, podem ter direitos especiais em caso de liquidação da empresa.
+Esta classe inclui atributos e métodos relacionados ao cálculo de dividendos.
+*/
 
-    public AP(String codigo, String nome, double valorAtual, int quantidade) {
-        super(codigo, nome, valorAtual);
-        this.quantidade = quantidade;
+public class AP extends Acao {
+    private double dividendoFixo;
+
+    public AP(String simbolo, double preco) {
+        super("Ação Preferencial", simbolo, preco);
     }
 
-    public int getQuantidade() {
-        return quantidade;
-    }
-
-    public void setQuantidade(int quantidade) {
-        this.quantidade = quantidade;
-    }
-
-    @Override
-    public String toString() {
-        return "AcaoPreferencial [codigo=" + getCodigo() + ", nome=" + getNome() + ", valorAtual=" + getValorAtual()
-                + ", quantidade=" + quantidade + "]";
+    public double calcularDividendos() {
+        // Lógica para calcular o valor dos dividendos
+        return dividendoFixo;
     }
 }
