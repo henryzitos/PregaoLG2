@@ -1,5 +1,6 @@
 # 📈 PregaoLG2 📉
 _Prof° Ugo Henrique Pereira da Silva_
+
 **Projeto para o 3° e 4° Bimestre de LG2 - 2023**
 
 ## Descrição
