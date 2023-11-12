@@ -3,16 +3,16 @@ _Prof° Ugo Henrique Pereira da Silva_
 
 **Projeto para o 3° e 4° Bimestre de LG2 - 2023**
 
-## Descrição
+## Descrição:
 Programa que simulará um pregão na bolsa de valores utilizando algoritmos e estruturas de dados na linguagem Java.
 
-## Instalação e uso
+## Instalação e uso:
 1. Baixe o repositório do projeto. 
 2. Extraia o arquivo baixado.
 3. Com o auxílio de um programa compilador de Java, abra o projeto.
 4. Execute o projeto.
 
-## Desenvolvedores
+## Equipe:
 | Integrante               | Função                  |
 |--------------------------|-------------------------|
 | Arthur Lessa             | Desenvolvimento         |
@@ -20,7 +20,7 @@ Programa que simulará um pregão na bolsa de valores utilizando algoritmos e es
 | Felipe Witkowsky         | Gestão do projeto       |
 | Isabela Crestane         | Gestão do projeto       |
 
-## Ferramentas usadas
+## Ferramentas usadas:
 As ferramentas a seguir são usadas pela equipe e recomendadas ao usuário para ter melhor proveito.
 
 <div style="display: flex; justify-content: center; align-items: center;">
